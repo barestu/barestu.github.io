@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url('img/background.png');
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.title {
+  color: #FFF;
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 36px;
+}
+
+#title {
+  letter-spacing: 2px;
+  padding-top: 300px;
+  text-align: center;
+}
+
+#sub-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header {
+  background-color: #4284d7;
+  height: 720px;
+}
+
+nav {
+  padding: 10px 0;
+  background-color: #FFF;
+  width: 100%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  color: #054a70;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+li:hover {
+  color: #61737c;
+}
