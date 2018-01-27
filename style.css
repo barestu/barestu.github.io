@@ -4,26 +4,57 @@
 }
 
 body {
-    background-color: silver;
+    background-image: url('img/background.png');
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
 }
 
-#container {
-  width: 960px;
-  margin: 0 auto;
-}
-
-#header {
-  background: url('background-image.jpg');
-}
-
-h1 {
+.title {
+  color: #FFF;
   font-family: 'Sedgwick Ave', cursive;
   font-size: 36px;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+  letter-spacing: 2px;
+  padding-top: 300px;
   text-align: center;
 }
 
-h4 {
-  font-family: 'Arial';
+#sub-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 6px;
+  text-transform: uppercase;
   text-align: center;
+}
+
+header {
+  background-color: #4284d7;
+  height: 720px;
+}
+
+nav {
+  padding: 10px 0;
+  background-color: #FFF;
+  width: 100%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  color: #054a70;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+li:hover {
+  color: #61737c;
 }
