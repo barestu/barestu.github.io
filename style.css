@@ -31,6 +31,8 @@ body {
 }
 
 header {
+  background-image: url('img/landing.jpg');
+  background-size: cover;
   background-color: #4284d7;
   height: 720px;
 }
@@ -57,4 +59,16 @@ li {
 
 li:hover {
   color: #61737c;
+}
+
+section {
+  padding: 10px;
+  background-color: #FFF;
+  margin: 0 auto;
+  width: 1280px;
+  top: 720px;
+}
+
+#content-write {
+  padding: 10px 10px;
 }
