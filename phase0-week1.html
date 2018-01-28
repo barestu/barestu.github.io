@@ -9,30 +9,105 @@
   </head>
 
   <body>
-    <nav>
+    <nav class="navigation">
       <ul>
         <a href="index.html"><li>Home</li></a>
       </ul>
     </nav>
 
     <section>
-      <div id="week1">
-        <h2>Week 1</h2>
+      <div>
+        <h2 id="blog-title">Week 1</h2>
+        <div class="blog-image">
+          <img src="img/week1.jpg" alt="">
+        </div>
         <p>Hari pertama dan minggu pertama dimulainya fase-nol dari serangkain kegiatan di kampus Hacktiv8. Diawali dengan perkenalan lingkungan kampus Hacktib8. Fase-nol merupakan fase persiapan yaitu mempelajari dasar-dasar materi agar dapat menjalani bootcamp Full-Stack Developer dan lulus dengan baik. Hal-hal yang sudah dipelajari pada minggu pertama akan saya uraikan satu-persatu:</p>
-        <div id="content-write">
+        <div class=""="content-write">
           <h3>Tentang HTML</h3>
           <p>HTML adalah satu dari banyak bahasa markup yang menjadi bagian pembangun dasar sebuah halaman web (webpage). Saat ini versi terbarunya adalah versi 5.1, secara resmi disebut HTML5. Digunakan untuk membuat dan merepresentasikan secara visual sebuah webpage. HTML menentukan konten dari sebuah webpage, namun bukan fungsionalitasnya.</p>
+          <h4>Contoh Penulisan Syntax HTML:</h4>
+          <div class="code">
+            <code>
+              &lt!doctype html&gt <br>
+              &lthtml&gt <br>
+                &lttitle&gtWebsite Saya&lt/title&gt <br>
+              &ltbody&gt <br>
+                &ltdiv&gt <br>
+                  &lth1&gtHalo, Heading!&lt/h1&gt <br>
+                  &ltp&gtSebuah paragraf.&lt/p&gt <br>
+                &lt/div&gt <br>
+                &lt/body&gt <br>
+                &lt/html&gt <br>
+            </code>
+          </div>
+          <h4>Contoh HTML Yang Dibuat Melalui Jsbin:</h4>
+          <div class="blog-image2">
+            <img src="img/html-jsbin.png" alt="">
+          </div>
+          <h4>Referensi:</h4>
+          <ul class="link-ref">
+            <a href="http://www.sekolahkoding.com/kelas/belajar-html-dari-dasar"><li>Mempelajari Dasar HTML</li></a>
+            <a href="http://www.simplehtmlguide.com/cheatsheet.php"><li>Tips Trik HTML</li></a>
+          </ul>
+
           <h3>Tentang CSS</h3>
           <p>CSS merupakan bahasa style sheet yang berguna untuk membantu menyajikan dokumen yang ditulis dengan HTML maupun XML bahkan SVG. CSS mengatur bagaimana elemen-elemen seharusnya ditampilkan di layar, di kertas, dan berbagai media lainnya. Hal-hal seperti warna, ukuran, posisi, dll (color, size, position, etc) dapat diatur oleh CSS. Tentu saja berarti CSS membutuhkan HTML agar dapat bekerja. Saat ini versi terbarunya adalah versi 3, secara resmi disebut CSS3.</p>
+          <h4>Contoh Penulisan Syntax HTML:</h4>
+          <div class="code">
+            <code>
+              h1 { <br>
+                font-weight: 800; <br>
+                color: gray; <br>
+              } <br>
+              p { <br>
+                color: orange; <br>
+              } <br>
+              #website-title { <br>
+                padding: 10px; <br>
+              } <br>
+              .menu { <br>
+                margin: 5em; <br>
+              } <br>
+              button:hover { <br>
+                background-color: #FFECB3; <br>
+              } <br>
+            </code>
+          </div>
+          <h4>Contoh HTML Yang Dibuat Melalui Jsbin:</h4>
+          <div class="blog-image2">
+            <img src="img/css-jsbin.png" alt="">
+          </div>
+          <h4>Referensi:</h4>
+          <ul class="link-ref">
+            <a href="http://www.sekolahkoding.com/kelas/belajar-css-dari-dasar"><li>Mempelajari Dasar CSS</li></a>
+            <a href="http://learn.shayhowe.com/html-css/getting-to-know-css"><li>Penggunaan HTML Dengan CSS</li></a>
+          </ul>
+
           <h3>Belajar Git & Github</h3>
           <p>Git merupakan tool utama yang pasti akan kamu gunakan setiap hari, sepanjang karirmu sebagai developer. Dengan ini kamu dapat tahu apa saja yang kamu lakukan setiap saat dan berkolaborasi dengan rekan lainnya juga. Anggaplah Git sebagai mesin waktu untuk berbagai kerjaan dan file/folder yang kamu kelola. <br>
           Sedangkan GitHub merupakan tempat sekaligus komunitas untuk para developer berbagai code dan berkolaborasi dalam berbagai project software. Bahkan modern ini, profil GitHub dapat menggantikan resume/CV untuk melamar pekerjaan!</p>
-          <h3>Latihan Command Line Git & Github</h3>
-          <p>Melatih penggunaan dasar command line serta Git dan GitHub lebih jauh akan memudahkan kamu seiring pengembangan web kamu. Eksperimen ini dapat secara bebas dilakukan, tidak harus sama persis dengan petunjuk, yang penting esensinya didapat.</p>
+          <h4>Referensi:</h4>
+          <ul class="link-ref">
+            <a href="http://try.github.io/"><li>Video Tutorial Git by GitHub</li></a>
+              <a href="http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything"><li>Referensi Command Line</li></a>
+          </ul>
+
           <h3>Memahami Alur Pembuatan Website</h3>
-          <p></p>
+          <ol>
+            <li>Menentukan apa saja konten yang akan dimuat di website portfolio</li>
+            <li>Membuat gambaran kasar (wireframe) tampilan website</li>
+            <li>Mulai membuat website dari kerangka web awal (html), lalu disempurnakan tampilannya dengan stylesheet (css)</li>
+            <li>Setelah selesai, dilakukan testing apakah website tersebut sudah dapat berjalan dengan baik</li>
+            <li>Peluncuran (deployment) website yang sudah selesai dibuat sehingga dapat diakses melalui internet</li>
+            <li>Maintenance berkala</li>
+          </ol>
+
           <h3>Adaptive Web Design & Responsiove Web Design (RWB)</h3>
-          <p></p>
+          <p>Zaman sekarang, seluruh website yang bagus dan baik tentunya memiliki versi mobile-nya. Untuk mengakomodasi kebutuhan mobile, ada banyak teknik yang dapat diimplementasikan. Awal mulanya, mayoritas website memisahkan halaman web utama (example.com) dengan versi mobile-nya (m.example.com). Kini hanya dengan domain yang sama kita bisa membuat desain menyesuaikan secara responsif maupun adaptif dengan ukuran layar, sifat device yang digunakan, dan berbagai parameter lainnya. Berbagai teknik desain ini adalah sebagaian cara agar developer dapat membuat website menjadi lebih mudah digunakan, dikelola, dan beradaptasi dengan device dan browser yang baru. Untuk itu, kita harus tahu apa saja yang dibutuhkan untuk menghasilkan website dengan teknik tersebut.</p>
+          <h4>Referensi:</h4>
+          <ul class="link-ref">
+            <a href="https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers"><li>Perbandingan Adaptive & Responsive Web</li></a>
+          </ul>
         </div>
       </div>
 
