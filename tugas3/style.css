@@ -1,0 +1,83 @@
+body {
+  font-family: 'Slabo 27px', serif;
+  background-image: url('img/sample-pattern.png');
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FFF;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  float: right;
+  margin-right: 40px;
+  padding-top: 5px;
+}
+
+li {
+  color: #4284d7;
+  display: inline-block;
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+li:hover {
+    color: #5b93ef;
+}
+
+#logo {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+section {
+  width: 960px;
+  margin: 100px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #34495e;
+}
+
+h3 {
+  padding-left: 25px;
+  color: #4284d7;
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+    padding-left: 25px;
+}
+
+article {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#article-list {
+  background-color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  color: #FFF;
+  background-color: #111;
+  font-size: 18px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
